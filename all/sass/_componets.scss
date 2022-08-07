@@ -1,0 +1,42 @@
+///////////////////////////////////////
+/// LOGO
+.logo {
+  height: 3.5rem;
+}
+///////////////////////////////////////
+/// SEARCH BAR
+.search {
+  background-color: orangered;
+  &__input {
+  }
+
+  &__button {
+  }
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+///////////////////////////////////////
+/// USER NAV
+.user-nav {
+  display: flex;
+  background-color: olivedrab;
+  &__icon-box {
+  }
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+  }
+  &__notification {
+    // background-color: olivedrab;
+  }
+  &__user {
+    &-photo {
+      height: 3em;
+      border-radius: 45%;
+    }
+    &-name {
+    }
+  }
+}
