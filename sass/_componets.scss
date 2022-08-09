@@ -2,41 +2,55 @@
 /// LOGO
 .logo {
   height: 3.5rem;
+  margin-left: 3rem;
 }
 ///////////////////////////////////////
 /// SEARCH BAR
 .search {
+  flex: 0 0 40%;
   background-color: orangered;
   &__input {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: var(--Grey-light-2);
+    border: none;
+    border-radius: 100%;
+    padding: 0.7rem 2rem;
+    width: 40%;
   }
 
   &__button {
   }
   &__icon {
-    height: 2rem;
-    width: 2rem;
+    height: 2.25rem;
+    width: 2.25rem;
   }
 }
 ///////////////////////////////////////
 /// USER NAV
 .user-nav {
-  display: flex;
   background-color: olivedrab;
   &__icon-box {
   }
+
   &__icon {
     height: 2rem;
     width: 2rem;
   }
+
   &__notification {
     // background-color: olivedrab;
   }
+
   &__user {
-    &-photo {
-      height: 3em;
-      border-radius: 45%;
-    }
-    &-name {
-    }
+  }
+
+  &__user-photo {
+    height: 3em;
+    border-radius: 50%;
+  }
+
+  &__user-name {
   }
 }

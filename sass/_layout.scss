@@ -9,6 +9,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  border-bottom: var(--Grey-light-2);
   align-items: center;
   background-color: #fff;
   height: 7rem;
@@ -16,7 +17,7 @@
 
 .content {
   display: flex;
-  justify-content: space-between;
+  //justify-content: space-between;
   background-color: aqua;
 }
 .sidebar {
